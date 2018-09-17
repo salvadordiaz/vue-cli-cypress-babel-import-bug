@@ -678,14 +678,6 @@
     "@vue/babel-preset-app" "^3.0.1"
     babel-loader "^8.0.0-0"
 
-"@vue/cli-plugin-e2e-cypress@^3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-e2e-cypress/-/cli-plugin-e2e-cypress-3.0.3.tgz#4c5c45ad350e93ff362e61d8307cd7823a57b0f9"
-  dependencies:
-    "@vue/cli-shared-utils" "^3.0.2"
-    cypress "^3.0.2"
-    eslint-plugin-cypress "^2.0.1"
-
 "@vue/cli-service@^3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@vue/cli-service/-/cli-service-3.0.3.tgz#dd91f2ee40922001559601d458209e4398887337"
@@ -2108,9 +2100,9 @@ cyclist@~0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-0.2.2.tgz#1b33792e11e914a2fd6d6ed6447464444e5fa640"
 
-cypress@^3.0.2:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-3.1.0.tgz#b718ba64289b887c7ab7a7f09245d871a4a409ba"
+cypress@3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-3.0.3.tgz#b8d64d36a8c642f5343f826b6ebac312eed5a51d"
   dependencies:
     "@cypress/listr-verbose-renderer" "0.4.1"
     "@cypress/xvfb" "1.2.3"
@@ -2505,12 +2497,6 @@ escape-html@~1.0.3:
 escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
-
-eslint-plugin-cypress@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-cypress/-/eslint-plugin-cypress-2.0.1.tgz#647e942cacbfd71b0f1a1ed6978472fbd475c60a"
-  dependencies:
-    globals "^11.0.1"
 
 eslint-scope@^4.0.0:
   version "4.0.0"
@@ -3037,7 +3023,7 @@ global-dirs@^0.1.0:
   dependencies:
     ini "^1.3.4"
 
-globals@^11.0.1, globals@^11.1.0:
+globals@^11.1.0:
   version "11.7.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-11.7.0.tgz#a583faa43055b1aca771914bf68258e2fc125673"
 

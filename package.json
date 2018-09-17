@@ -12,8 +12,13 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.3",
-    "@vue/cli-plugin-e2e-cypress": "^3.0.3",
     "@vue/cli-service": "^3.0.3",
+    "cypress": "3.0.3",
     "vue-template-compiler": "^2.5.17"
+  },
+  "vuePlugins": {
+    "service": [
+      "vue-cli-plugin-e2e-cypress.js"
+    ]
   }
 }
